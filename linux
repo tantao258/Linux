@@ -1,0 +1,10 @@
+halt  关机
+reboot  重启
+\ 强制换行
+ctrl+L  清屏
+Ctrl+c  清除命令
+ifconfig 查看ip
+su  切换到root用户
+passwd  修改密码
+/ 根目录
+~ 用户家目录
