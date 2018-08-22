@@ -1,0 +1,24 @@
+cd / 根目录
+cd .. 上级目录
+cd 个人目录
+cd - 上次目录
+pwd 当前路径
+ls 查看目录
+ls -F 查看目录中文件
+ls -a 显示隐藏文件
+tree 树形图
+mkdir 11 创建文件夹
+mkdir 11 22
+####                                                                    mkdir -p /11/22 创建递归文件夹
+rm -f file1 删除文件file1
+rm -f file1 file2 删除文件file1，file2
+rmdir 11 删除目录11
+rmdir 11 22 删除目录11，22
+rm -rf 11 删除11目录及其内容
+#####                                                                  rm -rf 11 22 删除11，22目录及其内容
+cp file1 file2 复制一个文件
+cp dir/* . 复制一个目录下的所有文件到当前工作目录
+cp -a /dir1 . 复制一个目录到当前工作目录
+mv 11 22   移动11 到 22
+cp -a dir1 dir2 复制一个目录
+ln -s file1 lnk1 创建一个指向文件或目录的软链接（快捷方式）

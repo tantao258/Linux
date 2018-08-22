@@ -1,0 +1,13 @@
+1、查看进程
+    ps -aux | head -N
+    ps：a指代all—所有的进程
+        u指代userid——执行该进程的用户id
+        x指代显示所有程序，不以终端机来区分
+
+    ps aux | sort -k4nr | head -N
+    sort: k4表示按照第4个列的关键词排序
+          n指代numberic，根据其数值排序
+          r指代reverse（从大到小）
+
+    top命令
+
