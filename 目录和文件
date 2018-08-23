@@ -1,6 +1,6 @@
 cd / 根目录
 cd .. 上级目录
-cd 个人目录
+cd ~ 个人目录
 cd - 上次目录
 pwd 当前路径
 ls 查看目录
@@ -17,11 +17,11 @@ rmdir 11 22 删除目录11，22
 rm -rf 11 删除11目录及其内容
 #####                                                                  rm -rf 11 22 删除11，22目录及其内容
 cp file1 file2 复制一个文件
+cp -r  复制整个目录树
 cp dir/* . 复制一个目录下的所有文件到当前工作目录
 cp -a /dir1 . 复制一个目录到当前工作目录
 mv 11 22   移动11 到 22
 cp -a dir1 dir2 复制一个目录
-ln -s file1 lnk1 创建一个指向文件或目录的软链接（快捷方式）
 
 halt  关机
 reboot  重启
@@ -33,3 +33,17 @@ su  切换到root用户
 passwd  修改密码
 / 根目录
 ~ 用户家目录
+uname -r 查看内核版本号（提权） 
+which + 命令   查看命令所在目录
+hostname 查看主机名
+cat /proc/cpuinfo  查看cpu信息
+cat /proc/meminfo  查看内存信息
+du -sh /hone  查看文件夹大小
+touch 1.txt  创建文件
+vi 1.txt     创建文件
+cat file/dir 查看文件
+ln -s 链接文件 目标目录
+ln 源文件  目标目录   （相当于复制文件）
+find /etc -name(size/user/type) filename   查找文件
+
+vi编辑器：
